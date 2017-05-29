@@ -10,6 +10,12 @@ Assumptions:
 
 - The assignment suggested to "extract only the measurements on the mean and standard deviation...". This was not explained in more detail. For the sake of this project, we assumed this only meant the measurements like "tBodyAcc-mean()-X" and does not include "fBodyBodyGyroMag-meanFreq()". A full list of extracted measurements in listed below.
 
+Description of files in the repo
+
+- README.md: Contains step-by-step details of the process implemented by run_analysis.R 
+- run_analysis.R: Script that can be run locally in the working directory to arrive at the output tiny_data.txt
+- tiny_data.txt: Output of the script run_analysis.R 
+
 Variables:
 
 - subject_id : The ID of the test subject
