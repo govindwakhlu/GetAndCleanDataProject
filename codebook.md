@@ -30,6 +30,7 @@ List of Activitities (numbers indicate Activity ID in original data set)
 
 
 List of Measurements
+
 "tBodyAcc-mean()-X",
 "tBodyAcc-mean()-Y",
 "tBodyAcc-mean()-Z",
