@@ -5,22 +5,28 @@ This summarizes the data fields in tidy_data.txt. See the README for more inform
 
 Assumptions:
 - Data obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is already downloaded
+
 - The working directory is set to the parent directory
+
 - The assignment suggested to "extract only the measurements on the mean and standard deviation...". This was not explained in more detail. For the sake of this project, we assumed this only meant the measurements like "tBodyAcc-mean()-X" and does not include "fBodyBodyGyroMag-meanFreq()". A full list of extracted measurements in listed below.
 
 Variables:
-subject_id - The ID of the test subject
-activity - The activity performed when the corresponding measurements were taken.
-Measurements - A list of values that contain the average/mean value of that measurement, grouped by the subject_id and activity pair.
+
+- subject_id : The ID of the test subject
+
+- activity : The activity performed when the corresponding measurements were taken.
+
+- Measurements : A list of values that contain the average/mean value of that measurement, grouped by the subject_id and activity pair.
 
 
 List of Activitities (numbers indicate Activity ID in original data set)
-1: WALKING
-2: WALKING_UPSTAIRS
-3: WALKING_DOWNSTAIRS
-4: SITTING
-5: STANDING
-6: LAYING
+
+- 1: WALKING
+- 2: WALKING_UPSTAIRS
+- 3: WALKING_DOWNSTAIRS
+- 4: SITTING
+- 5: STANDING
+- 6: LAYING
 
 
 List of Measurements
