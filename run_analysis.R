@@ -55,6 +55,6 @@ run_analysis <- function() {
 	
 	##Write output file
 	setwd("..")
-	write.table(final_set_mean, "tiny_data.txt", sep=",")
+	write.table(final_set_mean, "tiny_data.txt", sep=",", row.names = FALSE)
 	
 }
