@@ -8,7 +8,7 @@ Assumptions:
 
 - The working directory is set to the parent directory
 
-- The assignment suggested to "extract only the measurements on the mean and standard deviation...". This was not explained in more detail. For the sake of this project, we assumed this only meant the measurements like "tBodyAcc-mean()-X" and does not include "fBodyBodyGyroMag-meanFreq()". A full list of extracted measurements in listed below.
+- The assignment suggested to "extract only the measurements on the mean and standard deviation...". This was not explained in more detail. For the sake of this project, we assumed this only meant the measurements like "tBodyAcc-mean()-X" and does not include "fBodyBodyGyroMag-meanFreq()". A full list of extracted measurements is listed below.
 
 Description of files in the repo
 
@@ -16,13 +16,13 @@ Description of files in the repo
 - run_analysis.R: Script that can be run locally in the working directory to arrive at the output tiny_data.txt
 - tiny_data.txt: Output of the script run_analysis.R 
 
-Variables:
+Variables in tiny_data.txt:
 
-- subject_id : The ID of the test subject
+- subject_id : The ID of the test subject (Range from 1-30)
 
-- activity : The activity performed when the corresponding measurements were taken.
+- activity : The activity performed when the corresponding measurements were taken. Full list below.
 
-- Measurements : A list of values that contain the average/mean value of that measurement, grouped by the subject_id and activity pair.
+- Measurements : A list of values that contain the average/mean value of that measurement, grouped by the subject_id and activity pair. Full list below.
 
 
 List of Activitities (numbers indicate Activity ID in original data set)
